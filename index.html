@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/5ee61e3497.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favico.png" type="image/x-icon">
+    <title>Hot Gadgets</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container nav-container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand me-xl-5" href="index.html"><img class="w-75" src="images/background/logo.png" alt=""></a>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
+                    <div class="search">
+                        <form class="d-flex">
+                            <input class="form-control border rounded-pill w-100" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="links">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container carousel-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="inner d-flex align-items-center justify-content-around">
+                            <div class="item-text">
+                                <h1>Macbook Pro</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, expedita. Velit soluta hic natus nostrum perferendis placeat quidem deleniti facere? Lorem</p>
+                                <a href="">BUY NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <div class="item-img">
+                                <img src="images/banner-products/product-1.png" class="w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="inner d-flex align-items-center justify-content-around">
+                            <div class="item-text">
+                                <h1>Amazon Echo</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sequi suscipit magnam accusantium praesentium debitis in ullam, illum totam voluptatum.</p>
+                                <a href="">BUY NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <div class="item-img">
+                                <img src="images/banner-products/slider-1.png" class="w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="inner d-flex align-items-center justify-content-around">
+                            <div class="item-text">
+                                <h1>Portable Speaker</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi magnam iste. Nostrum enim corporis aut perferendis modi aliquid ipsam lorem ipsum.</p>
+                                <a href="">BUY NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <div class="item-img">
+                                <img src="images/banner-products/slider-3.png" class="w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container smartphone-container">
+            <div class="phone-text d-flex justify-content-between align-items-center">
+                <h1>Smartphone</h1>
+                <p>See All</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">I Phone 11 pro</h2>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h3>$1289</h3>
+                            <a href="">Buy Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">Galaxy Note</h2>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h3>$799</h3>
+                            <a href="">Buy Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">Nokia 7.1</h2>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h3>$699</h3>
+                            <a href="">Buy Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container laptop-container">
+            <div class="laptop-text d-flex justify-content-between align-items-center">
+                <h1>Laptop</h1>
+                <p>See All</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">Asus VivoBook</h2>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h3>$1289</h3>
+                            <a href="">Buy Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">Razer Blade 15</h2>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h3>$1289</h3>
+                            <a href="">Buy Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h2 class="card-title">Xiaomi Mi NoteBook</h2>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h3>$1289</h3>
+                            <a href="">Buy Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container catagories-container">
+            <div class="catagory-text d-flex justify-content-center">
+                <h2>Catagories</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center top-col">
+                            <div class="box-img">
+                                <img src="images/Categories/bag.png" alt="" class="w-100">
+                                <h4 class="text-center mt-2">Bags</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                            <div class="box-img mb-5">
+                                <img src="images/Categories/perfume.png" alt="" class="w-100">
+                                <h4 class="text-center mt-2">Beauty</h4>
+                            </div>
+                            <div class="box-img">
+                                <img src="images/Categories/shoe.png" alt="" class="w-100">
+                                <h4 class="text-center">Shoes</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="images/Categories/pale-order.png" alt="" class="w-100 bottom">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p class="credit">©Rahat Khan Pathan. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- JavaScrip -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
